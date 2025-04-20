@@ -1,0 +1,129 @@
+html { background: #111; }
+	
+body {
+	margin: 0 auto;
+ 
+      font-family: "Tinos-regular", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      line-height: 1.75;
+	  
+	  font-family: "Markazi text", sans-serif;
+       font-optical-sizing: auto;
+       font-weight: 400;
+       font-style: normal;
+       font-variation-settings: "wdth" 100; 
+ }
+ header img {
+	 max-width: 100%;
+	 height: auto;
+ }
+ 
+  div 
+  
+	#box-one{
+	     background-color: #F8F8FF;
+		 padding: 100px;
+		 border: 15px solid black;
+		 margin: 10px;
+		 width: 1000px;
+		 text-align: justify;
+		 }
+	  
+	  #customers {
+  font-family: tinos-regular, markazi text;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid orange;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+	header {
+	color: #994d00;
+	padding: 30px;
+	text-align: center;
+	font-size: 100px;
+}
+
+menu {
+	color: #FF4500;
+	padding: 20px;
+	text-align: center;
+}
+ul {
+font-size: 25px; }
+
+topnav {
+	overflow: hidden;
+	background-color: #FFBF00;
+}
+
+topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 24px 26px;
+}
+
+topnav a:hover {
+	background-color: #FF8F00;
+	color: black;
+}
+a {
+font-size: 25px; }
+
+column {
+	float: left;
+	padding: 10px;
+}
+
+column side{
+	width: 25%;
+}
+
+   column middle {
+	width: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+  column side column middle {
+    width: 100%;
+  }
+}
+
+footer {
+	color: #994d00;
+	text-align: center;
+	padding: 10px;
+}
+H1     {
+	  font-family: "Markazi Text", sans-serif;
+	  font-size: 100px; 
+	   } 
+  p {
+	  font-family: "Tinos-regular", sans-serif;
+	  font-size: 25px; 
+	  }
+H2     {
+	  font-family: "Markazi Text", sans-serif;
+	  font-size: 50px; 
+		}
+  p {
+	  font-family: "Tinos-regular", sans-serif;
+	  font-size: 25px;
+	  }
